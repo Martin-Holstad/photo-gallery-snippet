@@ -6,7 +6,7 @@
 
 Welcome to the Photo Gallery Snippet! This React-based project showcases an interactive photo gallery, allowing users to add and remove images to a favorites list.
 
-[Link to Photo Gallery Snippet website](https://vikingfjord.netlify.app/)
+[Link to Photo Gallery Snippet website]([https://vikingfjord.netlify.app/](https://photo-gallery-snippet.netlify.app/))
 
 ## Features
 
