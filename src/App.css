@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
