@@ -1,0 +1,30 @@
+.photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #ffff;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo:hover {
+  transform: scale(1.03);
+}
+
+.photo img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.favoriteButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}

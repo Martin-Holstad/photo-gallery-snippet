@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
