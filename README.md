@@ -1,6 +1,6 @@
 # Photo Gallery Snippet
 
-![Screenshot 2025-04-19 094056](https://github.com/user-attachments/assets/42d064fb-4b1a-4893-9f30-e9c3f9f398a7)
+<img width="2540" height="1302" alt="Screenshot 2025-09-01 194900" src="https://github.com/user-attachments/assets/28628b0e-557e-4ae2-ae27-a4369c91f663" />
 
 ## Description
 
