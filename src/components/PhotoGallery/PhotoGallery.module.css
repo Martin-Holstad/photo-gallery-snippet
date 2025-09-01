@@ -24,6 +24,16 @@
   font-weight: lighter;
 }
 
+.emptyMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  font-size: 20px;
+  color: #b1afaf;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 300px));

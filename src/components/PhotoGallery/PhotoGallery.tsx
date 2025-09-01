@@ -38,6 +38,7 @@ export default function PhotoGallery() {
     <main className={styles.main}>
       <div className={styles.wrapper}>
         <h1>Gallery</h1>
+        {photos.length === 0 && <p className={styles.emptyMessage}>Gallery is empty!</p>}
         <div className={styles.gallery}>
           {photos.map((photo, index) => (
             <div key={index} onClick={() => handlePhotoClick(photo)}>
