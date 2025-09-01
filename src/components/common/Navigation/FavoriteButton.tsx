@@ -17,11 +17,11 @@ export default function FavoriteButton() {
   }, []);
 
   return (
-    <div className={styles.favoritButtonWrapper}>
+    <Link to="favorites" className={styles.favoritButtonWrapper}>
       {favorites.length > 0 && <p className={styles.favoritesCounter}>{favorites.length}</p>}
-      <Link to="favorites" className={styles.favoriteButton}>
+      <div className={styles.favoriteButton}>
         <Icons icon="faHeart" color="rgb(195, 196, 197)" size="25px" />
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }

@@ -30,6 +30,8 @@
   gap: 10px;
   margin: 25px 0px 0px 0px;
   max-width: 1300px;
+  width: 100%;
+  min-height: 950px;
 }
 
 @media only screen and (max-width: 1330px) {
